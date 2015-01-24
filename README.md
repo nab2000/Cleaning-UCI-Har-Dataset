@@ -1,4 +1,4 @@
-# ================================================================
+
 run_analysis V1.0. for use with the Human Activity Recognition Using Smartphones Dataset Version 1.0[1]
 ==================================================================
 
