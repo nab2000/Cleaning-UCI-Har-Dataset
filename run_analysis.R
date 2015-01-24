@@ -1,7 +1,7 @@
 ## To utilize this file just load it in then use the run_tidy() 
 ## call to run the function
 
-## laods in necessary packages
+## loads in necessary packages
 library (data.table)
 library (reshape2)
 
@@ -13,6 +13,13 @@ selec_col_nums <-  c(1, 2, 3, 4, 5, 6, 41, 42, 43, 44, 45, 46, 81, 82, 83, 84, 8
                      266, 267, 268, 269, 270, 271, 345, 346, 347, 348, 349, 350, 424, 425, 426, 427,
                      428, 429, 503, 504, 542, 543)
 
+
+## can be used if you want to download zip file and unzip in current
+##directory if needed 
+#library (downloader)
+#fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+#download(fileURL, dest = "dataset.zip", mode = "wb")
+#unzip ("dataset.zip", exdir = "./")
 
 
 ## reads in training data set and combines subject and activity info
